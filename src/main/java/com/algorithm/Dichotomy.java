@@ -7,7 +7,7 @@ public class Dichotomy {
 
 
     /**
-     * 二分法 查找
+     * 二分法 查找  时间复杂度O(logn)
      * @param args
      */
     public static void main(String[] args) {

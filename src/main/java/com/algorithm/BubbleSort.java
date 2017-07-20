@@ -6,7 +6,7 @@ package com.algorithm;
 public class BubbleSort {
 
     /**
-     * 冒泡算法
+     * 冒泡算法  时间复杂度 O(n^2)
      *
      * @param args
      */
@@ -16,16 +16,22 @@ public class BubbleSort {
 
         int length = arr.length;
 
-        for (int i = length - 1; i > 0; i--) {
+        for (int i = 0; i < length - 1; i++) {
 
-            for (int j = 0; j < i; ++j) {
+            boolean flag = true;//设定一个标记，若为true，则表示此次循环没有进行交换，也就是待排序列已经有序，排序已然完成
 
-                if (arr[i] > arr[j + 1]) {
+            for (int j = 0; j < length - i - 1; j++) {
 
-                    int temp = arr[i];
-                    arr[i] = arr[j + 1];
+                if (arr[j] > arr[j + 1]) {
+
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
+                    flag = false;
                 }
+            }
+            if (flag) {
+                break;
             }
         }
 

@@ -19,9 +19,9 @@ public class LinkListApp {
         while (!theList.isEmpty()) {
 
             Link alink = theList.deleteFirst();
-            System.out.print(" Deteled ");
+            System.out.print("Deteled ");
             alink.displayLink();
-            System.out.print("");
+            System.out.println(" ");
         }
         theList.displayList();
     }

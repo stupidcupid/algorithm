@@ -5,6 +5,10 @@ package com.datastructure.recursion.binarysearch;
  */
 public class BinarySearchApp {
 
+    /**
+     * 递归 二分法
+     * @param args
+     */
     public static void main(String[] args) {
 
 

@@ -44,5 +44,11 @@ public class StackX {
         return (top == maxSize - 1);
     }
 
+    public static void main(String[] args) {
+
+        Integer i = Integer.valueOf("");
+        System.out.println(i);
+    }
+
 
 }

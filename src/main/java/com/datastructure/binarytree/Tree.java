@@ -235,7 +235,7 @@ public class Tree {
         int nBlanks = 32;
         boolean isRowEmpty = false;
 
-        System.out.println("--------------------------------");
+        System.out.println("..............................................................");
 
         while (isRowEmpty == false) {
 
@@ -260,18 +260,19 @@ public class Tree {
                     }
                 } else {
 
-                    System.out.print("--");
+                    System.out.print(" - - ");
                     localStack.push(null);
                     localStack.push(null);
                 }
                 for (int j = 0; j < nBlanks * 2 - 2; j++)
                     System.out.print(' ');
             }
-            System.out.println("");
+            System.out.println();
 
             nBlanks /= 2;
             while (localStack.isEmpty() == false)
                 globalStack.push(localStack.pop());
         }
+        System.out.println("..............................................................");
     }
 }

@@ -16,14 +16,17 @@ public class TreeApp {
 
         Tree theTree = new Tree();
 
-        theTree.insert(12, 1.2);
-        theTree.insert(13, 1.4);
-        theTree.insert(10, 1.6);
-        theTree.insert(18, 1.7);
-        theTree.insert(14, 1.9);
-        theTree.insert(19, 1.8);
-        theTree.insert(11, 1.5);
-        theTree.insert(17, 1.0);
+        theTree.insert(50, 1.2);
+        theTree.insert(25, 1.4);
+        theTree.insert(75, 1.6);
+        theTree.insert(12, 1.7);
+        theTree.insert(37, 1.9);
+        theTree.insert(43, 1.8);
+        theTree.insert(30, 1.5);
+        theTree.insert(33, 1.0);
+        theTree.insert(87, 1.0);
+        theTree.insert(93, 1.0);
+        theTree.insert(97, 1.0);
 
         while (true) {
 

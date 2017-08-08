@@ -5,6 +5,10 @@ package com.datastructure.hash;
  */
 public class HashTableApp {
 
+    /**
+     * Hash表
+     * @param args
+     */
     public static void main(String[] args) {
 
 
